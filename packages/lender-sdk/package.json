@@ -4,12 +4,20 @@
   "description": "TypeScript client for ZCore lender and partner integrations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["zcore", "stellar", "credit", "lender"],
+  "keywords": [
+    "zcore",
+    "stellar",
+    "credit",
+    "lender"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.10.5",

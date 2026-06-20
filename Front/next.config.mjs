@@ -6,4 +6,4 @@ const nextConfig = {
   transpilePackages: ["@creit.tech/stellar-wallets-kit"],
 }
 
-export default nextConfig
+export default nextConfig;
