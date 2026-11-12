@@ -2,9 +2,6 @@
 api-docs.json
 
 # Environment (never commit secrets)
-.env
-.env.local
-.env.*
 .env.*.local
 *.pem
 
@@ -16,5 +13,6 @@ api-docs.json
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
+config.bat
+node_modules
