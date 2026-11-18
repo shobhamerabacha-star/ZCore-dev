@@ -4,9 +4,9 @@
   "description": "ZCore API - Middleware de scoring para DeFi",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "node init && nodemon src/index.ts",
-    "build": "node init && tsc",
-    "start": "node init && node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
