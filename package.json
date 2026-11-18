@@ -9,13 +9,13 @@
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
     "db:reset": "docker compose down -v && docker compose up -d",
-    "dev:server": "node init && npm run dev --prefix Server",
-    "dev:front": "node init && npm run dev --prefix Front",
+    "dev:server": "npm run dev --prefix Server",
+    "dev:front": "npm run dev --prefix Front",
     "install:all": "npm install --prefix Server && npm install --prefix Front --legacy-peer-deps",
     "prisma:migrate": "npm run prisma:generate --prefix Server && npx prisma migrate deploy --schema Server/prisma/schema.prisma",
     "prisma:seed": "npm run prisma:seed --prefix Server",
     "test:server": "npm test --prefix Server",
     "test": "npm run test:server",
-    "build:lender-sdk": "node init && npm run build --prefix packages/lender-sdk"
+    "build:lender-sdk": "npm run build --prefix packages/lender-sdk"
   }
 }
