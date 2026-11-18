@@ -9,7 +9,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
